@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(150, 150, 150);
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}

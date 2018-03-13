@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "firebase chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "reload -b --port 8080"
+  },
+  "author": "Frank Veloz Montero",
+  "license": "ISC",
+  "devDependencies": {
+    "reload": "^2.2.2"
+  }
+}

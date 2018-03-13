@@ -1,0 +1,48 @@
+.accent-color-1 {
+  background-color: #C5E99B;
+}
+
+.accent-color-2 {
+  background-color: #56445D;
+}
+
+.accent-color-3 {
+  color: #548687;
+}
+
+@keyframes colors {
+  0% {
+    color: #56445D;
+  }
+
+  25% {
+    color: #A16DB5;
+  }
+
+  50% {
+    color: #5BA1E0;
+  }
+
+  70% {
+    color: #3AE4D0;
+  }
+
+  100% {
+    color: #DFE43A;
+  }
+}
+
+/* Scroll Bar */
+.cool-scroll-bar-17::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px; }
+
+.cool-scroll-bar-17::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0); }
+
+.cool-scroll-bar-17::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 178, 178, 0.72);
+  border-radius: 10px; }
+

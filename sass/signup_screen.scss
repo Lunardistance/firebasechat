@@ -1,0 +1,83 @@
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+
+  .back-icon {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #000;
+    font-size: 40px;
+  }
+
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    .icon {
+      font-size: 150px;
+      color: #56445D;
+      animation: colors 10s ease alternate-reverse infinite;
+    }
+  }
+
+  .inputs-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+
+    .input-container {
+      display: flex;
+      margin: 20px 0px;
+
+      .input-title {
+        text-align: center;
+        padding: 20px;
+        flex: 1;
+      }
+
+      .input-wrapper {
+        flex: 2;
+        display: flex;
+
+        .input {
+          flex-grow: 1;
+          font-size: 18px;
+          padding: 10px 0px;
+          height: 35px;
+          border: none;
+          border-bottom: 1px solid rgb(150, 150, 150);
+
+          &:focus {
+            border-bottom: 2px solid  #548687;
+          }
+        }
+      }
+    }
+  }
+
+  .btn-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+
+    .btn {
+      text-align: center;
+      width: 100%;
+      padding: 20px 0px;
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,514 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #969696; }
+
+textarea:focus, input:focus {
+  outline: none; }
+
+.accent-color-1 {
+  background-color: #C5E99B; }
+
+.accent-color-2 {
+  background-color: #56445D; }
+
+.accent-color-3 {
+  color: #548687; }
+
+@keyframes colors {
+  0% {
+    color: #56445D; }
+  25% {
+    color: #A16DB5; }
+  50% {
+    color: #5BA1E0; }
+  70% {
+    color: #3AE4D0; }
+  100% {
+    color: #DFE43A; } }
+/* Scroll Bar */
+.cool-scroll-bar-17::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px; }
+
+.cool-scroll-bar-17::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba(0, 0, 0, 0); }
+
+.cool-scroll-bar-17::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 178, 178, 0.72);
+  border-radius: 10px; }
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative; }
+  .login-container .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+    .login-container .logo-container .icon {
+      font-size: 150px;
+      color: #56445D;
+      animation: colors 10s ease alternate-reverse infinite; }
+  .login-container .inputs-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    z-index: 99; }
+    .login-container .inputs-container .input-container {
+      display: flex;
+      margin: 20px 0px; }
+      .login-container .inputs-container .input-container .input-title {
+        text-align: center;
+        padding: 20px;
+        flex: 1; }
+      .login-container .inputs-container .input-container .input-wrapper {
+        flex: 2;
+        display: flex; }
+        .login-container .inputs-container .input-container .input-wrapper .input {
+          flex-grow: 1;
+          font-size: 18px;
+          padding: 10px 0px;
+          height: 35px;
+          border: none;
+          border-bottom: 1px solid #969696; }
+          .login-container .inputs-container .input-container .input-wrapper .input:focus {
+            border-bottom: 2px solid  #548687; }
+    .login-container .inputs-container .icons-container {
+      display: flex;
+      justify-content: center; }
+      .login-container .inputs-container .icons-container .google-icon {
+        margin: 40px;
+        border: 1px solid #4c9cda;
+        border-radius: 50%;
+        background: url("../images/google_icon.png") 0 0 no-repeat;
+        background-size: 50px 50px;
+        background-position: center;
+        height: 80px;
+        width: 80px; }
+        .login-container .inputs-container .icons-container .google-icon:hover {
+          background-color: #C5E99B; }
+      .login-container .inputs-container .icons-container .facebook-icon {
+        margin: 40px;
+        border: 1px solid #4c9cda;
+        border-radius: 50%;
+        background: url("../images/facebook_icon.png") 0 0 no-repeat;
+        background-size: cover;
+        height: 80px;
+        width: 80px; }
+        .login-container .inputs-container .icons-container .facebook-icon:hover {
+          background-color: #C5E99B; }
+  .login-container .btn-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse; }
+    .login-container .btn-container .btn {
+      text-align: center;
+      width: 100%;
+      padding: 20px 0px;
+      font-size: 1rem; }
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative; }
+  .signup-container .back-icon {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #000;
+    font-size: 40px; }
+  .signup-container .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+    .signup-container .logo-container .icon {
+      font-size: 150px;
+      color: #56445D;
+      animation: colors 10s ease alternate-reverse infinite; }
+  .signup-container .inputs-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px; }
+    .signup-container .inputs-container .input-container {
+      display: flex;
+      margin: 20px 0px; }
+      .signup-container .inputs-container .input-container .input-title {
+        text-align: center;
+        padding: 20px;
+        flex: 1; }
+      .signup-container .inputs-container .input-container .input-wrapper {
+        flex: 2;
+        display: flex; }
+        .signup-container .inputs-container .input-container .input-wrapper .input {
+          flex-grow: 1;
+          font-size: 18px;
+          padding: 10px 0px;
+          height: 35px;
+          border: none;
+          border-bottom: 1px solid #969696; }
+          .signup-container .inputs-container .input-container .input-wrapper .input:focus {
+            border-bottom: 2px solid  #548687; }
+  .signup-container .btn-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse; }
+    .signup-container .btn-container .btn {
+      text-align: center;
+      width: 100%;
+      padding: 20px 0px;
+      font-size: 1rem; }
+
+.chat-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  flex-direction: column; }
+  .chat-container .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    text-align: center; }
+    .chat-container .chat-header .name-container {
+      margin: 0px 20px; }
+    .chat-container .chat-header .sign-out {
+      flex: 0 0 60px; }
+  .chat-container .chat-messages {
+    flex: 1;
+    background-color: #adebff;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden; }
+  .chat-container .chat-input-container {
+    height: 60px;
+    display: flex;
+    border-top: 1px solid #000; }
+    .chat-container .chat-input-container .chat-input-wrapper {
+      height: 100%;
+      flex-grow: 1;
+      display: flex; }
+      .chat-container .chat-input-container .chat-input-wrapper .chat-input {
+        background-color: rgba(0, 0, 0, 0);
+        border: 0;
+        height: 100%;
+        width: 100%;
+        font-size: 16px;
+        padding: 0px 5px;
+        flex: 1; }
+    .chat-container .chat-input-container .chat-btn {
+      height: 100%;
+      flex: 0 0 70px;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      color: #fff; }
+
+.right {
+  flex-flow: row-reverse;
+  text-align: right; }
+
+.left {
+  flex-flow: row;
+  text-align: left; }
+
+.msg-div {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 0;
+  font-size: 24px;
+  display: flex; }
+
+.name {
+  font-size: 15px;
+  color: #bcb7b7; }
+
+.msg {
+  word-wrap: break-word;
+  color: #000; }
+
+.profile-img {
+  height: 50px;
+  width: auto;
+  border-radius: 50px; }
+
+.date {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #bcb7b7; }
+
+/* Bubbles */
+/* container */
+.container {
+  padding: 5% 5%; }
+
+/* CSS talk bubble */
+.talk-bubble {
+  z-index: 10;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: auto;
+  background-color: #fff; }
+
+.border {
+  border: 8px solid #666; }
+
+.round {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px; }
+
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -40px;
+  right: auto;
+  top: -8px;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent; }
+
+.tri-right.left-top:after {
+  z-index: -1;
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 22px solid;
+  border-color: #fff transparent transparent transparent; }
+
+/* Right triangle, left side slightly down */
+.tri-right.border.left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -40px;
+  right: auto;
+  top: 30px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #666 #666 transparent transparent; }
+
+.tri-right.left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: #fff #fff transparent transparent; }
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -8px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 32px solid;
+  border-color: transparent transparent transparent #666; }
+
+.tri-right.btm-left:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 22px solid;
+  border-color: transparent transparent transparent #fff; }
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 transparent transparent #666; }
+
+.tri-right.btm-left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #fff transparent transparent #fff; }
+
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 30px;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 #666 transparent transparent; }
+
+.tri-right.btm-right-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 38px;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #fff #fff transparent transparent; }
+
+/*
+	left: -8px;
+  right: auto;
+  top: auto;
+	bottom: -40px;
+	border: 32px solid;
+	border-color: transparent transparent transparent #666;
+	left: 0px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 22px solid;
+	border-color: transparent transparent transparent #fff;
+
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -8px;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #666 #666 transparent transparent; }
+
+.tri-right.btm-right:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 0px;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #fff #fff transparent transparent; }
+
+/* Right triangle, right side slightly down*/
+.tri-right.border.right-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: 30px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #666 transparent transparent #666; }
+
+.tri-right.right-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: #fff transparent transparent #fff; }
+
+/* Right triangle placed top right flush. */
+.tri-right.border.right-top:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: -8px;
+  bottom: auto;
+  border: 32px solid;
+  border-color: #666 transparent transparent transparent; }
+
+.tri-right.right-top:after {
+  z-index: -1;
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 0px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #fff transparent transparent transparent; }
+
+/* talk bubble contents */
+.talktext {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em; }
+
+.talktext p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em; }
+
+/*# sourceMappingURL=style.css.map */
