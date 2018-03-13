@@ -1,10 +1,14 @@
-.signup-container {
+%signupandlogincontainer{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100vh;
   flex-direction: column;
   position: relative;
+}
+
+.signup-container {
+  @extend %signupandlogincontainer;
 
   .back-icon {
     position: absolute;

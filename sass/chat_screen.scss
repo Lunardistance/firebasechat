@@ -1,3 +1,5 @@
+$primary-color: #fff; 
+
 .chat-container {
   display: flex;
   justify-content: space-between;
@@ -10,7 +12,7 @@
     align-items: center;
     height: 60px;
     background-color: #000;
-    color: #fff;
+    color: $primary-color;
     font-size: 24px;
     text-align: center;
 
@@ -60,7 +62,7 @@
       justify-content: center;
       align-items: center;
       background-color: #000;
-      color: #fff;
+      color: $primary-color;
     }
   }
 }
